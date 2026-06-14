@@ -60,4 +60,35 @@ docker compose logs -f app
 # System Verification Gallery
 Here is the active container group confirming healthy operation and runtime isolation checks matching target layout criteria:
 
+## Status Healthy On running Docker Compose
+![image alt](https://github.com/NoFallback/Dockerized-App-Stack/blob/66488c7840470caeda7b80fb2fbef88b084a35ef/assets/1.png)
+
+### More detailed screenshot
+![image alt](https://github.com/NoFallback/Dockerized-App-Stack/blob/66488c7840470caeda7b80fb2fbef88b084a35ef/assets/1.1.png)
+## Docker status
+![image alt](https://github.com/NoFallback/Dockerized-App-Stack/blob/66488c7840470caeda7b80fb2fbef88b084a35ef/assets/compose%20ps.png)
+## Validating correct connection between app.py and database
+![image alt](https://github.com/NoFallback/Dockerized-App-Stack/blob/66488c7840470caeda7b80fb2fbef88b084a35ef/assets/connection%20app%20db.png)
+## Endpoint Testing & Validation
+1.
+![image alt](https://github.com/NoFallback/Dockerized-App-Stack/blob/66488c7840470caeda7b80fb2fbef88b084a35ef/assets/curl%201.png)
+2.
+![image alt](https://github.com/NoFallback/Dockerized-App-Stack/blob/66488c7840470caeda7b80fb2fbef88b084a35ef/assets/curl%20health.png)
+3.
+![image alt](https://github.com/NoFallback/Dockerized-App-Stack/blob/66488c7840470caeda7b80fb2fbef88b084a35ef/assets/curl%20app.png)
+4.
+![image alt](https://github.com/NoFallback/Dockerized-App-Stack/blob/66488c7840470caeda7b80fb2fbef88b084a35ef/assets/curl%20api.png)
+## Logs Checks and Validation
+1.
+![image alt](https://github.com/NoFallback/Dockerized-App-Stack/blob/66488c7840470caeda7b80fb2fbef88b084a35ef/assets/logs%20app%20db.png)
+2.
+![image alt](https://github.com/NoFallback/Dockerized-App-Stack/blob/66488c7840470caeda7b80fb2fbef88b084a35ef/assets/logs%20redis.png)
+
+## Docker compose volumes OUTPUT
+![image alt](https://github.com/NoFallback/Dockerized-App-Stack/blob/66488c7840470caeda7b80fb2fbef88b084a35ef/assets/volumes.png)
+## Check on Database maintained even after stopping the container AND Successful stopping the container
+![image alt](https://github.com/NoFallback/Dockerized-App-Stack/blob/66488c7840470caeda7b80fb2fbef88b084a35ef/assets/down.png)
+## Successful Stopping All and Exiting the containers with deleting volumes
+![image alt](https://github.com/NoFallback/Dockerized-App-Stack/blob/66488c7840470caeda7b80fb2fbef88b084a35ef/assets/down%20v.png)
+
 
